@@ -25,7 +25,6 @@ public class StatsService {
         for (int i = 0; i < month.length; i++) {
             if (month[i] > month[maxSell]) {
                 maxSell = i;
-
             }
         }
         return maxSell;
